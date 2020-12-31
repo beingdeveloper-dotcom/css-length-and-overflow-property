@@ -1,0 +1,80 @@
+html {
+  font-size: 16px;
+}
+body {
+  width: 70%;
+  margin: 50px auto;
+  background-color: #111;
+  color: #eeebeb;
+}
+h1,
+h2 {
+  text-align: center;
+}
+em {
+  display: block;
+  margin-bottom: 15px;
+}
+.length ol ~ h3 {
+  color: blue;
+}
+.length + em {
+  color: red;
+}
+.wrapper {
+  font-size: 1em;
+}
+
+.px {
+  width: 200px;
+}
+.vw {
+  width: 10vw;
+}
+
+.em {
+  width: 20em;
+}
+.ems {
+  width: 125px;
+}
+.ems li {
+  font-size: 1.3em;
+  width: 25em;
+}
+.rems li {
+  font-size: 1.3rem;
+}
+.wrapper {
+  width: 600px;
+  border: 3px solid purple;
+}
+.px {
+  width: 500px;
+  background-color: yellow;
+}
+.percent {
+  width: 40%;
+  background-color: red;
+}
+ul {
+  font-size: 25px;
+}
+li {
+  font-size: 80%;
+}
+.overflow-box {
+  border: 2px solid orange;
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}
+p.overflow-wrap {
+  border: 2px solid green;
+  width: 13em;
+}
+.overflow-wrap .normal {
+  /* overflow-wrap: anywhere; */
+  /* overflow-wrap: break-word; */
+  word-break: break-all;
+}
